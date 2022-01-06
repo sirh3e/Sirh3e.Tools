@@ -1,3 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using M = Sirh3e.Tools.Lib.Math;
 
-Console.WriteLine("Hello, World!");
+var distances = new[]
+{
+    "00000000",
+    "01100110",
+    "10011001",
+    "11111111",
+};
+
+Console.WriteLine(M.Hamming.SolveDistances(distances));
