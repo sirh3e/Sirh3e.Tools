@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirh3e.Tools.Cli", "src\Sirh3e.Tools.Cli\Sirh3e.Tools.Cli.csproj", "{2EDD635A-FE8F-4231-AB9C-AE45CED01CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirh3e.Tools.Lib", "src\Sirh3e.Tools.Lib\Sirh3e.Tools.Lib.csproj", "{43031FA2-3377-42B6-AE87-4B6544C5C777}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EDD635A-FE8F-4231-AB9C-AE45CED01CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDD635A-FE8F-4231-AB9C-AE45CED01CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDD635A-FE8F-4231-AB9C-AE45CED01CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDD635A-FE8F-4231-AB9C-AE45CED01CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43031FA2-3377-42B6-AE87-4B6544C5C777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43031FA2-3377-42B6-AE87-4B6544C5C777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43031FA2-3377-42B6-AE87-4B6544C5C777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43031FA2-3377-42B6-AE87-4B6544C5C777}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
