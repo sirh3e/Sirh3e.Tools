@@ -2,10 +2,7 @@
 
 var distances = new[]
 {
-    "00000000",
-    "01100110",
-    "10011001",
-    "11111111",
+    "00110", "00101", "01110"
 };
 
 Console.WriteLine(M.Hamming.SolveDistances(distances));

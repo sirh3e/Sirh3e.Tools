@@ -6,18 +6,16 @@ public static partial class Math
     {
         public static int SolveDistances(string[] distances)
         {
-            var results = new HashSet<int>(distances.Length);
-
+            var distance = int.MaxValue;
             for (var x = 0; x < distances.Length; x++)
-                for (var y = x + 1; y < distances.Length; y++)
-                {
-                    var result = SolveDistance(distances[x], distances[y]);
-                    if (results.Contains(result)) continue;
+            for (var y = x + 1; y < distances.Length; y++)
+            {
+                var result = SolveDistance(distances[x], distances[y]);
+                if (distance > result)
+                    distance = result;
+            }
 
-                    results.Add(result);
-                }
-
-            return results.Min();
+            return distance;
         }
 
         public static int SolveDistance(in string src, in string dst)
